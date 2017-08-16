@@ -1,0 +1,345 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		675F98791E78A51500559920 /* DrawViewType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 675F98781E78A51500559920 /* DrawViewType.swift */; };
+		675F987B1E78AC0700559920 /* QuadBezierCurveDrawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 675F987A1E78AC0700559920 /* QuadBezierCurveDrawView.swift */; };
+		67ECB4651E77638E00E55E84 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67ECB4641E77638E00E55E84 /* AppDelegate.swift */; };
+		67ECB4671E77638E00E55E84 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67ECB4661E77638E00E55E84 /* MainViewController.swift */; };
+		67ECB46A1E77638E00E55E84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67ECB4681E77638E00E55E84 /* Main.storyboard */; };
+		67ECB46C1E77638E00E55E84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67ECB46B1E77638E00E55E84 /* Assets.xcassets */; };
+		67ECB46F1E77638E00E55E84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67ECB46D1E77638E00E55E84 /* LaunchScreen.storyboard */; };
+		67ECB4791E77655800E55E84 /* StraightLinesDrawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67ECB4771E77655800E55E84 /* StraightLinesDrawView.swift */; };
+		67ECB47C1E77658600E55E84 /* BezierPathDrawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67ECB47B1E77658600E55E84 /* BezierPathDrawView.swift */; };
+		67ECB47E1E7767DE00E55E84 /* CGRectExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67ECB47D1E7767DE00E55E84 /* CGRectExtensions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		675F98781E78A51500559920 /* DrawViewType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawViewType.swift; sourceTree = "<group>"; };
+		675F987A1E78AC0700559920 /* QuadBezierCurveDrawView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuadBezierCurveDrawView.swift; sourceTree = "<group>"; };
+		67ECB4611E77638E00E55E84 /* BezierCurveDrawing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BezierCurveDrawing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		67ECB4641E77638E00E55E84 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		67ECB4661E77638E00E55E84 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		67ECB4691E77638E00E55E84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		67ECB46B1E77638E00E55E84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		67ECB46E1E77638E00E55E84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		67ECB4701E77638E00E55E84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67ECB4771E77655800E55E84 /* StraightLinesDrawView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StraightLinesDrawView.swift; sourceTree = "<group>"; };
+		67ECB47B1E77658600E55E84 /* BezierPathDrawView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BezierPathDrawView.swift; sourceTree = "<group>"; };
+		67ECB47D1E7767DE00E55E84 /* CGRectExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGRectExtensions.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		67ECB45E1E77638E00E55E84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		67ECB4581E77638D00E55E84 = {
+			isa = PBXGroup;
+			children = (
+				67ECB4631E77638E00E55E84 /* BezierCurveDrawing */,
+				67ECB4621E77638E00E55E84 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		67ECB4621E77638E00E55E84 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				67ECB4611E77638E00E55E84 /* BezierCurveDrawing.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		67ECB4631E77638E00E55E84 /* BezierCurveDrawing */ = {
+			isa = PBXGroup;
+			children = (
+				67ECB4641E77638E00E55E84 /* AppDelegate.swift */,
+				675F98781E78A51500559920 /* DrawViewType.swift */,
+				67ECB4661E77638E00E55E84 /* MainViewController.swift */,
+				67ECB47A1E77655C00E55E84 /* Draw Views */,
+				67ECB47F1E7767E400E55E84 /* Extensions */,
+				67ECB4681E77638E00E55E84 /* Main.storyboard */,
+				67ECB46B1E77638E00E55E84 /* Assets.xcassets */,
+				67ECB46D1E77638E00E55E84 /* LaunchScreen.storyboard */,
+				67ECB4701E77638E00E55E84 /* Info.plist */,
+			);
+			path = BezierCurveDrawing;
+			sourceTree = "<group>";
+		};
+		67ECB47A1E77655C00E55E84 /* Draw Views */ = {
+			isa = PBXGroup;
+			children = (
+				67ECB47B1E77658600E55E84 /* BezierPathDrawView.swift */,
+				675F987A1E78AC0700559920 /* QuadBezierCurveDrawView.swift */,
+				67ECB4771E77655800E55E84 /* StraightLinesDrawView.swift */,
+			);
+			name = "Draw Views";
+			sourceTree = "<group>";
+		};
+		67ECB47F1E7767E400E55E84 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				67ECB47D1E7767DE00E55E84 /* CGRectExtensions.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		67ECB4601E77638E00E55E84 /* BezierCurveDrawing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67ECB4731E77638E00E55E84 /* Build configuration list for PBXNativeTarget "BezierCurveDrawing" */;
+			buildPhases = (
+				67ECB45D1E77638E00E55E84 /* Sources */,
+				67ECB45E1E77638E00E55E84 /* Frameworks */,
+				67ECB45F1E77638E00E55E84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BezierCurveDrawing;
+			productName = BezierCurveDrawing;
+			productReference = 67ECB4611E77638E00E55E84 /* BezierCurveDrawing.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		67ECB4591E77638D00E55E84 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "360mind, Inc.";
+				TargetAttributes = {
+					67ECB4601E77638E00E55E84 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 67ECB45C1E77638D00E55E84 /* Build configuration list for PBXProject "BezierCurveDrawing" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 67ECB4581E77638D00E55E84;
+			productRefGroup = 67ECB4621E77638E00E55E84 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				67ECB4601E77638E00E55E84 /* BezierCurveDrawing */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		67ECB45F1E77638E00E55E84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67ECB46F1E77638E00E55E84 /* LaunchScreen.storyboard in Resources */,
+				67ECB46C1E77638E00E55E84 /* Assets.xcassets in Resources */,
+				67ECB46A1E77638E00E55E84 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		67ECB45D1E77638E00E55E84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67ECB4791E77655800E55E84 /* StraightLinesDrawView.swift in Sources */,
+				675F987B1E78AC0700559920 /* QuadBezierCurveDrawView.swift in Sources */,
+				67ECB4671E77638E00E55E84 /* MainViewController.swift in Sources */,
+				675F98791E78A51500559920 /* DrawViewType.swift in Sources */,
+				67ECB47E1E7767DE00E55E84 /* CGRectExtensions.swift in Sources */,
+				67ECB47C1E77658600E55E84 /* BezierPathDrawView.swift in Sources */,
+				67ECB4651E77638E00E55E84 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		67ECB4681E77638E00E55E84 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67ECB4691E77638E00E55E84 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		67ECB46D1E77638E00E55E84 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67ECB46E1E77638E00E55E84 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		67ECB4711E77638E00E55E84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		67ECB4721E77638E00E55E84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		67ECB4741E77638E00E55E84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = BezierCurveDrawing/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.360mind.BezierCurveDrawing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		67ECB4751E77638E00E55E84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = BezierCurveDrawing/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.360mind.BezierCurveDrawing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		67ECB45C1E77638D00E55E84 /* Build configuration list for PBXProject "BezierCurveDrawing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67ECB4711E77638E00E55E84 /* Debug */,
+				67ECB4721E77638E00E55E84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67ECB4731E77638E00E55E84 /* Build configuration list for PBXNativeTarget "BezierCurveDrawing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67ECB4741E77638E00E55E84 /* Debug */,
+				67ECB4751E77638E00E55E84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 67ECB4591E77638D00E55E84 /* Project object */;
+}
